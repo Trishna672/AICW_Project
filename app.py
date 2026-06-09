@@ -3,7 +3,6 @@ import pickle
 import re
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
-# Load model and vectorizer
 model = pickle.load(open("Notebook/phishing_model.pkl", "rb"))
 vectorizer = pickle.load(open("Notebook/vectorizer.pkl", "rb"))
 
